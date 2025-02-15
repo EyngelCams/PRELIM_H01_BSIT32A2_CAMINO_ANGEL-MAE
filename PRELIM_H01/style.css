@@ -1,0 +1,81 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+  background-color: #343a40 !important;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#home {
+  background-color: #007bff;
+  color: white;
+  padding: 80px 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#about h2,
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-body ul {
+  padding-left: 20px;
+}
+
+.card-body li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode .navbar {
+  background-color: #222;
+}
+
+body.dark-mode section {
+  background-color: #444;
+}
+
+body.dark-mode footer {
+  background-color: #222;
+}
